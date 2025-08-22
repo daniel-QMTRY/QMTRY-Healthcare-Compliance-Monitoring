@@ -29,12 +29,12 @@ Picture this: A seamless flow from data to dashboards, dodging compliance pitfal
 
 ```mermaid
 flowchart LR
-  A[Seeded Demo Data\n(CSV)] --> B[dbt (DuckDB)\nmodels + tests]
-  B --> C[Great Expectations\ncheckpoint + Data Docs]
-  B --> D[Measures Table\n(quality_measures)]
-  C --> E[Evidence Bundle\n(Zip Artifacts)]
-  D --> F[Streamlit\nCompliance Home]
-  E -. download .-> F
+  A["Seeded Demo Data\n(CSV)"] --> B["dbt (DuckDB)\nmodels + tests"]
+  B --> C["Great Expectations\ncheckpoint + Data Docs"]
+  B --> D["Measures Table\n(quality_measures)"]
+  C --> E["Evidence Bundle\n(Zip Artifacts)"]
+  D --> F["Streamlit\nCompliance Home"]
+  E -. "download" .-> F
 ```
 
 Simple, scalable, and seriously slick! 🌟
